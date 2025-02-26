@@ -10,7 +10,7 @@ export const Banner = () => {
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+    const toRotate = ["Web Developer", "Web Designer", "QA"];
     const period = 2000;
 
     useEffect(() => {
@@ -51,8 +51,11 @@ export const Banner = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className="tagline">Welcome to my Portfolio</span>
-                                    <h1>{`Hi I'm James! `}<span className="wrap">{text}</span></h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis similique ut nemo doloremque, ea maiores minima, deserunt, nulla nihil impedit omnis. Necessitatibus nisi ratione dicta, ipsum explicabo natus et quas.</p>
+                                    <h1>{`Hi I'm Niraj! `}<span className="wrap">{text}</span></h1>
+                                    <p>I am Aspiring React.js Developer with strong analytical abilities, problem-solving skills,
+                                         and front-end development knowledge. Passionate about contributing to innovative solutions 
+                                         in the field of Information Technology. Currently
+                                         pursuing a degree at Nepalaya College with a focus on software engineering and algorithms.</p>
                                     <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
                                 </div>
                             }

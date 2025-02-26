@@ -35,23 +35,29 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis similique ut nemo doloremque, ea maiores minima, deserunt, nulla nihil impedit omnis. Necessitatibus nisi ratione dicta, ipsum explicabo natus et quas.</p>
+                            <p>I have experience with Java, PHP, and JavaScript,
+                                 enabling me to develop versatile applications across various
+                                  platforms. I am skilled in working with MongoDB and MySQL for efficient data
+                                   storage and management,
+                                   and I use JSON and XML to handle data exchange. On the frontend,
+                                    I use HTML, CSS, and React JS to create responsive and dynamic web interfaces,
+                                     with GitHub as my primary tool for version control and teamwork.</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="Image" />
-                                    <h5>Web Development</h5>
+                                    <h5>React JS</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter2} alt="Image" />
-                                    <h5>Brand Identity</h5>
+                                    <h5>JavaScript</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter3} alt="Image" />
-                                    <h5>Logo Design</h5>
+                                    <h5>QA</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter1} alt="Image" />
-                                    <h5>Web Development</h5>
+                                    <h5>MangoDB</h5>
                                 </div>
                             </Carousel>
                         </div>
